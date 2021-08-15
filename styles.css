@@ -1,0 +1,42 @@
+/* ******************* TAG SELECTORS ********************* */
+body {
+        background-color: #EAF6F6;
+}
+hr {
+        border-style: none;
+        border-top-style: dotted;
+        border-color: grey;
+        border-width: 5px;
+        width: 5%
+}
+img {
+        height: 191px;
+        width: 191px
+}
+h1{
+       color: #66BFBF;
+}
+h3{
+        color: #DB5461;
+}
+
+/* ******************* CLASS SELECTORS can affect many things bec class can be applied to many ********************* */
+.end-line{
+        border-style: none;
+        border-top-style: dotted;
+        border-color: black;
+        border-width: 5px;
+        width: 15%
+}
+/* ******************* Pseudo-Class SELECTORS ********************* */
+.end-line:hover{
+        border-style: none;
+        border-top-style: dashed;
+        border-color: black;
+        border-width: 5px;
+        width: 15%
+}
+
+/* ******************* ID SELECTORS can affect 1 thing bec id is unique*********************
+#id {
+}*/
